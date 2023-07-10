@@ -61,7 +61,7 @@ nav a {
 
 /* header related styles */
 .header {
-    background-color: #fff8f3;
+    
     width: 1600px;
     height: 837px;
     margin-left: 300px;
@@ -116,6 +116,11 @@ nav a {
 
 /* main section styles */
 
+main{
+        max-width: 1540px;
+        margin: 0 auto;
+        max-height: 550px;
+}
 
 /* about section styles */
 .about {
@@ -123,4 +128,29 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 230px 0px;
+}
+.about-info-container{
+    display: flex;
+    
+    justify-content:space-between ;
+}
+.about-info{
+    text-align: center;
+}
+
+.section-paragraph{
+    text-align: center;
+}
+.what-i-do{
+   
+    padding-top: 130px;
+
+}
+.What-i-do{
+    margin: 130px 230px 0px;
+    padding: 130px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
 }
